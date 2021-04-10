@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScheduleTextView">
+        <attr name="schedule_default_text_color" format="reference|color" />
+        <attr name="schedule_start_text_color" format="reference|color" />
+        <attr name="schedule_default_bg_color" format="reference|color" />
+        <attr name="schedule_start_bg_color" format="reference|color" />
+        <attr name="schedule_time" format="integer" />
+        <attr name="schedule_send_code" format="string" />
+    </declare-styleable>
+</resources>
