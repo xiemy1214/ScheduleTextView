@@ -79,6 +79,12 @@ class ScheduleTextView : AppCompatTextView {
     }
 
     /***倒计时**/
+    fun countDownSchedule(scheduleTime: Int?) {
+        if (scheduleTime != null) this.scheduleTime = scheduleTime
+        countDownSchedule()
+    }
+
+    /***倒计时**/
     fun countDownSchedule() {
         CountDownTask.newInstance()
             .countDownSchedule(scheduleTime, object : CountDownTask.CountDownCallback {

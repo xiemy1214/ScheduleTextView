@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         //设置点击事件
         tvMainSchedule?.setOnClickListener {
-            tvMainSchedule?.countDownSchedule()
+            tvMainSchedule?.countDownSchedule(30)
         }
     }
 }
